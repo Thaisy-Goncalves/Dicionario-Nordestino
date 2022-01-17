@@ -1,0 +1,38 @@
+*  {
+    margin:0;
+    padding:0;
+}
+
+@font-face {
+    font-family: xilosa;
+    src: url(fonts/xilosa/xilosa_.ttf);
+} 
+
+a {
+    font-family: xilosa;
+    font-size: 3rem;
+    color: #1b1919;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+a:hover {
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+h1 {
+    font-family: xilosa;
+    text-align: center;
+    font-size: 6rem;
+    display: inline-block;
+    margin: 0 25rem;
+    margin-top: 12.5rem;
+    
+
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+  }

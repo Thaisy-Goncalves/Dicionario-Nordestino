@@ -1,0 +1,24 @@
+@font-face {
+    font-family: xilosa;
+    src: url(../fonts/xilosa/xilosa_.ttf);
+} 
+
+body {
+    font-family: xilosa;
+    font-size: 2.5rem;
+    color: #fdf7f7;
+    background-color: #1b1919;
+}
+
+a {
+
+    color: #a19b9b;
+
+}
+
+.img3 {
+   
+    height: 30rem;
+    width: 50rem;
+    border-radius: 2.5rem;
+}
